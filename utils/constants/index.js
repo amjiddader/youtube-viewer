@@ -11,11 +11,11 @@ const URL_CONTAINER_FILE_NAME = 'urls.txt';
  * VIEW_DURATION - Max duration of a single view in seconds. Actual view duration will be +/- 16.6% of this number.
  * PAGE_DEFAULT_TIMEOUT - Max duration in seconds to wait for any action in the page.
  */
-const START_PORT = 9052;
+const START_PORT = 2020;
 const BATCH_COUNT = IS_PROD ? 6 : 1;
 const TOTAL_COUNT = 96;
 const VIEW_ACTION_COUNT = 10;
-const VIEW_DURATION = 650;
+const VIEW_DURATION = 1800;
 const PAGE_DEFAULT_TIMEOUT = 600;
 
 module.exports = {
