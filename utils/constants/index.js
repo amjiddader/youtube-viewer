@@ -12,9 +12,11 @@ const URL_CONTAINER_FILE_NAME = 'urls.txt';
  * PAGE_DEFAULT_TIMEOUT - Max duration in seconds to wait for any action in the page.
 npm start ytview=5
 
-const START_PORT = 2020;
-*/
+
+
 const BATCH_COUNT = IS_PROD ? 6 : 1;
+*/
+const START_PORT = 2020;
 const BATCH_COUNT = 1;
 const TOTAL_COUNT = 96;
 const VIEW_ACTION_COUNT = 1;
